@@ -1,22 +1,15 @@
 /node_modules
+/vendor
 /tests
+.git
+.github
 /storage/logs/*
 /storage/framework/cache/*
 /storage/framework/sessions/*
 /storage/framework/views/*
-.git
-.github
 .env.example
 .env.testing
-*.md
 phpunit.xml
-vite.config.js
-tailwind.config.js
-postcss.config.js
-package.json
-package-lock.json
-composer.json
-composer.lock
-/resources/js/* (already bundled in public/build)
-/resources/css/* (already bundled in public/build)
-/dev-scripts (if any)
+/resources/js/*
+/resources/css/*
+/dev-scripts
