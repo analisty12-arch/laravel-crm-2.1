@@ -3,9 +3,12 @@
     "functions": {
         "api/index.php": {
             "runtime": "vercel-php@0.7.1",
-            "memory": 512,
-            "maxDuration": 10
+            "memory": 1024,
+            "maxDuration": 25
         }
+    },
+    "github": {
+        "silent": true
     },
     "rewrites": [
         {
